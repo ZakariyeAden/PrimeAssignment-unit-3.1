@@ -13,14 +13,14 @@ console.log('Animals are: ', animalArray);
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
-
+  console.log('Favorite Food:', favFood);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
 
 // Example: How many animals are in the array? 
 console.log('Number of animals:', animalArray.length);
-
+// 4 animals in the array
 // 2.a. TODO: Log to the console the number of foods in your array
 
 
