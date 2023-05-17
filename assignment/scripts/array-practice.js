@@ -21,8 +21,9 @@ console.log('--- 2. Length of an array ---');
 // Example: How many animals are in the array? 
 console.log('Number of animals:', animalArray.length);
 // 4 animals in the array
-// 2.a. TODO: Log to the console the number of foods in your array
 
+// 2.a. TODO: Log to the console the number of foods in your array
+  console.log('Number of Foods:', favFood.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -31,15 +32,16 @@ console.log('--- 3. Accessing items in an array ---');
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
-
+  console.log('The Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-
+  console.log('The Last animal is', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-
-
+  let lastAnimal = animalArray.slice(-1)
+  console.log('Stretch, The last animal:', lastAnimal);
+  
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
